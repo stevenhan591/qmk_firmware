@@ -326,23 +326,23 @@ static void start_effects() {
 //  91, led 08                                                                                                                                                                      92, led 19
 
 static void set_rgb_caps_leds() {
-    rgb_matrix_set_color(67, 0xFF, 0x0, 0x0); // Left side LED 1
-    rgb_matrix_set_color(68, 0xFF, 0x0, 0x0); // Right side LED 1
-    rgb_matrix_set_color(70, 0xFF, 0x0, 0x0); // Left side LED 2
-    rgb_matrix_set_color(71, 0xFF, 0x0, 0x0); // Right side LED 2
-    rgb_matrix_set_color(73, 0xFF, 0x0, 0x0); // Left side LED 3
-    rgb_matrix_set_color(74, 0xFF, 0x0, 0x0); // Right side LED 3
-    rgb_matrix_set_color(76, 0xFF, 0x0, 0x0); // Left side LED 4
-    rgb_matrix_set_color(77, 0xFF, 0x0, 0x0); // Right side LED 4
-    rgb_matrix_set_color(80, 0xFF, 0x0, 0x0); // Left side LED 5
-    rgb_matrix_set_color(81, 0xFF, 0x0, 0x0); // Right side LED 5
-    rgb_matrix_set_color(83, 0xFF, 0x0, 0x0); // Left side LED 6
-    rgb_matrix_set_color(84, 0xFF, 0x0, 0x0); // Right side LED 6
-    rgb_matrix_set_color(87, 0xFF, 0x0, 0x0); // Left side LED 7
-    rgb_matrix_set_color(88, 0xFF, 0x0, 0x0); // Right side LED 7
-    rgb_matrix_set_color(91, 0xFF, 0x0, 0x0); // Left side LED 8
-    rgb_matrix_set_color(92, 0xFF, 0x0, 0x0); // Right side LED 8
-    rgb_matrix_set_color(3, 0xFF, 0xFF, 0xFF); // CAPS LED WHITE
+    rgb_matrix_set_color(67, RGB_WHITE); // Left side LED 1
+    rgb_matrix_set_color(68, RGB_WHITE); // Right side LED 1
+    rgb_matrix_set_color(70, RGB_WHITE); // Left side LED 2
+    rgb_matrix_set_color(71, RGB_WHITE); // Right side LED 2
+    rgb_matrix_set_color(73, RGB_WHITE); // Left side LED 3
+    rgb_matrix_set_color(74, RGB_WHITE); // Right side LED 3
+    rgb_matrix_set_color(76, RGB_WHITE); // Left side LED 4
+    rgb_matrix_set_color(77, RGB_WHITE); // Right side LED 4
+    rgb_matrix_set_color(80, RGB_WHITE); // Left side LED 5
+    rgb_matrix_set_color(81, RGB_WHITE); // Right side LED 5
+    rgb_matrix_set_color(83, RGB_WHITE); // Left side LED 6
+    rgb_matrix_set_color(84, RGB_WHITE); // Right side LED 6
+    rgb_matrix_set_color(87, RGB_WHITE); // Left side LED 7
+    rgb_matrix_set_color(88, RGB_WHITE); // Right side LED 7
+    rgb_matrix_set_color(91, RGB_WHITE); // Left side LED 8
+    rgb_matrix_set_color(92, RGB_WHITE); // Right side LED 8
+    rgb_matrix_set_color(3, RGB_WHITE); // CAPS LED WHITE
 }
 
 #endif // RGB_MATRIX_ENABLE
